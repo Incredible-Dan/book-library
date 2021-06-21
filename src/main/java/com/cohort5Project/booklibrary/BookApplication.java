@@ -1,14 +1,10 @@
 package com.cohort5Project.booklibrary;
 
-import com.cohort5Project.booklibrary.entity.Book;
-import com.cohort5Project.booklibrary.repository.BookRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookApplication implements CommandLineRunner {
+public class BookApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BookApplication.class, args);
@@ -37,5 +33,5 @@ public class BookApplication implements CommandLineRunner {
 
 
 
-    }
+
 }
