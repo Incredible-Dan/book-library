@@ -3,7 +3,7 @@ package com.cohort5Project.booklibrary.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Book")
+@Table(name = "book")
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
